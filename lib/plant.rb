@@ -8,6 +8,12 @@ class Plant
     @@all << self
   end
 
+
+  def initialize(name:)
+    @name = name
+    @garden = nil
+  end
+
   def self.all
     @@all
   end
